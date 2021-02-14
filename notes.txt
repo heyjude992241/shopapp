@@ -1,0 +1,21 @@
+notes:
+
+icons:
+svg
+add_to_cart
+back
+bag_1
+cart
+heart
+search
+
+images:
+bag1-6
+
+Day 1: Appbar: 3:27
+
+Day 2: HomePage: 6:16
+
+Day 3: HomePage: 11:11
+
+Day 4: Build details screen appbar 13:42
