@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:shopapp/constants.dart';
 import 'package:shopapp/models/Products.dart';
 import 'package:shopapp/screens/details/components/product_title_with_image.dart';
+import 'package:shopapp/screens/details/components/colors_and_size.dart';
+
+import 'description.dart';
 
 class Body extends StatelessWidget {
   final Product product;
@@ -20,11 +23,18 @@ class Body extends StatelessWidget {
             children: [
               Container(
                 margin: EdgeInsets.only(top: size.height * 0.35),
-                height: 400.0,
+                padding: EdgeInsets.only(top: size.height * 0.12, left: kDefaultPadding, right: kDefaultPadding),
+                // height: 400.0,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.only(topLeft: Radius.circular(24), topRight: Radius.circular(24))
                 ),
+                child: Column(
+                  children: [
+                    ColorAndSize(product: product),
+                    Description(product: product)
+                  ],
+                )
               ),
               ProductTitleWithImage(product: product)
             ],

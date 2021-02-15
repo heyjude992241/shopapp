@@ -19,3 +19,9 @@ Day 2: HomePage: 6:16
 Day 3: HomePage: 11:11
 
 Day 4: Build details screen appbar 13:42
+
+Day 5: Product title with image: 18:30
+
+Day 6: Colors, Size and Description: 23:40
+
+
